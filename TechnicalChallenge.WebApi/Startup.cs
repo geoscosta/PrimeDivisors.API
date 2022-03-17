@@ -34,7 +34,7 @@ namespace TechnicalChallenge.WebApi
                     Contact = new OpenApiContact
                     {
                         Name = "Geovane Silva",
-                        Url = new Uri("https://github.com/geoscosta/PrimeDivisors")
+                        Url = new Uri("https://github.com/geoscosta/PrimeDivisors.API")
                     }
                 });
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";

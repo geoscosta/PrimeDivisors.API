@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TechnicalChallenge.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:TechnicalChallenge.WebApi.Controllers.DivisorController.Post(DivisorLibrary.DivisorParameter)">
+            <summary>
+            Technical Challenge
+            </summary>
+            <remarks>
+                {
+                    "entryNumber": 45
+                }
+            </remarks>
+            <param name="entryNumber">number received and used to find its divisors and primes</param>
+            <returns>List of divisors and primes</returns>
+            <response code="200">Success</response>
+            <response code="400">invalid parameter</response>
+        </member>
+    </members>
+</doc>
